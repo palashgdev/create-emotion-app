@@ -2,7 +2,7 @@ require("module-alias/register");
 
 import chalk from "chalk";
 import { Command } from "commander";
-import getVersion from "@app/lib/getVersion";
+import getVersion from "@app/src/functions/getVersion";
 
 const version = getVersion();
 

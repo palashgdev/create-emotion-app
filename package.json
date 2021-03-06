@@ -1,12 +1,21 @@
 {
-	"name": "cli",
+	"name": "create-emotion-app",
 	"version": "1.0.0",
 	"main": "./src/index.ts",
+	"maintainers": [
+		{
+			"email": "me@palashg.dev",
+			"name": "Palash Gupta",
+			"url": "https://palashg.dev"
+		}
+	],
 	"license": "MIT",
 	"dependencies": {
+		"@types/inquirer": "false7.3.1",
 		"@types/node-fetch": "false2.5.8",
 		"chalk": "4.1.0",
 		"commander": "7.0.0",
+		"inquirer": "false8.0.0",
 		"node-fetch": "false2.6.1"
 	},
 	"devDependencies": {
